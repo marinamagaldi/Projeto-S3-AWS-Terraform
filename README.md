@@ -19,11 +19,16 @@ Nesse arquivo consta a definição do provedor AWS e recurso do bucket S3.
 
 4-  No terminal executar os comandos:
         terraform fmt: utilizado para formatar automaticamente os arquivos de configuração do Terraform.
+
         terraform validate: utilizado para validar a sintaxe e a semântica dos arquivos de confirguração do Terraform.
+
         export AWS_ACCESS_KEY_ID="chave de acesso"
+
         export AWS_SECRET_ACCESS_KEY="chave secreta"
+
         terraform plan: utilizado para criar um plano de execução no Terraform.
             -> mostrará uma mensagem com as configurações a serem aplicadas: terraform apply -> yes
+
 As configurações serão criadas e aplicadas automaticamente no console da AWS.
 
 5- Para excluir, executar o comando:
